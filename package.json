@@ -1,4 +1,21 @@
 {
+  "name": "hardhat-tutorial",
+  "version": "1.0.0",
+  "description": "A step-by-step tutorial of how to use HardHat with Javascript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasonjgarcia24/hardhat-tutorial.git"
+  },
+  "author": "jasonjgarcia24",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jasonjgarcia24/hardhat-tutorial/issues"
+  },
+  "homepage": "https://github.com/jasonjgarcia24/hardhat-tutorial#readme",
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.4",
     "@nomiclabs/hardhat-waffle": "^2.0.1",
