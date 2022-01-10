@@ -1,5 +1,5 @@
-# Writing and Running Smart Contracts
-******
+# Writing and Compiling Smart Contracts
+***
 ## Cotents<a id="Contents">
 [Write a Token Smart Contract](#Write-a-Token-Smart-Contract)<br>
 [Compile the Smart Contract](#Compile-the-Smart-Contract)<br>
@@ -9,7 +9,7 @@
 ## Write a Token Smart Contract<a id="Write-a-Token-Smart-Contract">
 - Create a new directory called <code>contracts</code> and create a file inside the directory called <code>Token.sol</code>
 
-<img src="./img/Token_sol_creation.png" alt="create Token.sol"><br>
+<center><img src="./img/Token_sol_creation.png" alt="create Token.sol"></center><br>
 - Use the following solidity code:<br>
 ```solidity
     // SPDX-License-Identifier: MIT
@@ -77,7 +77,7 @@
 ## Compile the Smart Contract<a id="Compile-the-Smart-Contract">
 - Compile the smart contract with <code>npx hardhat compile</code>
 
-<img src="./img/Token_sol_compile.png" alt="compile Token.sol"><br>
+    <center><img src="./img/Token_sol_compile.png" alt="compile Token.sol"></center><br>
 ***
 [Top of Page](#Top-of-Page)<br>
 [Contents](#Contents)<br>

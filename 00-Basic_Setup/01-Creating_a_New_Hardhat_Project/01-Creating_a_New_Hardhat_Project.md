@@ -14,7 +14,7 @@
 ## Initialize NPM Project<a id="Initialize-NPM-Project">
 - In the project folder, run the command <code>npm init</code>, or <code>npm init --yes</code> to use the npm project defaults.
 
-<img src="./img/npm_init.png" alt="npm init"><br>
+<center><img src="./img/npm_init.png" alt="npm init"></center><br>
 This will then create the below file:<br>
 ```
     {
@@ -50,10 +50,10 @@ This will then create the below file:<br>
 ### Hardhat Installation<a id="Hardhat-Installation">
 - Install Hardhat with the command <code>npm install --save-dev hardhat</code>
 
-<img src="./img/npm_install_hardhat.png" alt="npm install hardhat"><br>
+    <center><img src="./img/npm_install_hardhat.png" alt="npm install hardhat"></center><br>
 - Run the command <code>npx hardhat</code> and select <code>Create an empty hardhat.config.js</code>
 
-<img src="./img/npx_hardhat.png" alt="npx hardhat"><br>
+<center><img src="./img/npx_hardhat.png" alt="npx hardhat"></center><br>
 This will create the following default Hardhat configuration file with the following contents:<br>
 ```js
     /**
@@ -83,7 +83,7 @@ Here, we are going to use the <strong>Ethers.js</strong> and <strong>Waffle</sto
 ***
 ## Add .gitignore<a id="Add-.gitignore">
 If the root path containing the above created Hardhat project is also a git repo, you should add a <code>.gitignore</code> file.<br>
-- Use the following<code><a href="https://github.com/nomiclabs/hardhat/blob/master/.gitignore" target="_blank">.gitignore</a></code> as a base template.
+- Use the following <code><a href="https://github.com/nomiclabs/hardhat/blob/master/.gitignore" target="_blank">.gitignore</a></code> as a base template.
 ***
 [Top of Page](#Top-of-Page)<br>
 [Contents](#Contents)<br>
