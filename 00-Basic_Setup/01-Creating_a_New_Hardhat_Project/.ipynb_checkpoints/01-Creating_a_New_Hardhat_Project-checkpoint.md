@@ -47,7 +47,6 @@ This will then create the below file:<br>
 ```
 ***
 ## Install Hardhat and Plugins<a id="Install-Hardhat-and-Plugins">
-***
 ### Hardhat Installation<a id="Hardhat-Installation">
 - Install Hardhat with the command <code>npm install --save-dev hardhat</code>
 
@@ -55,16 +54,31 @@ This will then create the below file:<br>
 - Run the command <code>npx hardhat</code> and select <code>Create an empty hardhat.config.js</code>
 
 <img src="./img/npx_hardhat.png" alt="npx hardhat"><br>
-This will create the following default Hardhat configuration file:
-
-<img src="./img/hardhat_default_config.png" alt="hardhat config"><br>
+This will create the following default Hardhat configuration file with the following contents:<br>
+```js
+    /**
+     * @type import('hardhat/config').HardhatUserConfig
+     */
+    module.exports = {
+      solidity: "0.7.3",
+    };
+```
 ### Plugins Installation<a id="Plugins-Installation">
 <strong>Hardhat</strong> is unopinionated in terms of what tools you end up using, but it does come with some built-in defaults. All of which can be overridden. Most of the time the way to use a given tool is by consuming a plugin that integrate it into <strong>Hardhat</strong>.<br><br>
 Here, we are going to use the <strong>Ethers.js</strong> and <strong>Waffle</stong> plugins. They'll allow us to interact with Ethereum and to test our contracts.<br><br>
 - To install the noted plugins, run the command:<br><code>npm install --save-dev @nomiclabs/hardhat-ethers ethers @nomiclabs/hardhat-waffle ethereum-waffle chai</code>
-- Then, add the line <code>require("@nomiclabs/hardhat-waffle");</code> to the top of your <code><a href="../hardhat.config.js" target="_blank">hardhat.config.js</a></code> so that it looks like this:
+- Then, add the line <code>require("@nomiclabs/hardhat-waffle");</code> to the top of your <code><a href="../hardhat.config.js" target="_blank">hardhat.config.js</a></code> so that it looks like this:<br>
+```js
+    require("@nomiclabs/hardhat-waffle");
 
-<img src="./img/01_hardhat_config.png" alt="updated hardhat.config.js"><br>
+    /**
+     * @type import('hardhat/config').HardhatUserConfig
+     */
+    module.exports = {
+      solidity: "0.7.3",
+    };
+```
+
 <code>hardhat-waffle</code> depends on <code>hardhat-ethers</code>, so requiring <code>hardhat-waffle</code> is only necessary.
 ***
 ## Add .gitignore<a id="Add-.gitignore">
