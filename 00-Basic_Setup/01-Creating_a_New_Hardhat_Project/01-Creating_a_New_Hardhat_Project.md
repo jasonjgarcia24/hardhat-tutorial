@@ -83,7 +83,7 @@ Here, we are going to use the <strong>Ethers.js</strong> and <strong>Waffle</sto
 ***
 ## Add .gitignore<a id="Add-.gitignore">
 If the root path containing the above created Hardhat project is also a git repo, you should add a <code>.gitignore</code> file.<br>
-- Use the following <code><a href="https://github.com/nomiclabs/hardhat/blob/master/.gitignore" target="_blank">.gitignore</a></code> as a base template.
+- Use the following<code><a href="https://github.com/nomiclabs/hardhat/blob/master/.gitignore" target="_blank">.gitignore</a></code> as a base template.
 ***
 [Top of Page](#Top-of-Page)<br>
 [Contents](#Contents)<br>
