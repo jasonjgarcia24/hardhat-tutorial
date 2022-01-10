@@ -1,3 +1,11 @@
+# Writing and Running Smart Contracts
+******
+## Cotents<a id="Contents">
+[Write a Token Smart Contract](#Write-a-Token-Smart-Contract)<br>
+[Compile the Smart Contract](#Compile-the-Smart-Contract)<br>
+[Bottom of Page](#Bottom-of-Page)<br>
+
+***
 ## Write a Token Smart Contract<a id="Write-a-Token-Smart-Contract">
 - Create a new directory called <code>contracts</code> and create a file inside the directory called <code>Token.sol</code>
 
@@ -66,3 +74,13 @@
     }
 ```
 ***
+## Compile the Smart Contract<a id="Compile-the-Smart-Contract">
+- Compile the smart contract with <code>npx hardhat compile</code>
+
+<img src="./img/Token_sol_compile.png" alt="compile Token.sol"><br>
+***
+[Top of Page](#Top-of-Page)<br>
+[Contents](#Contents)<br>
+[Write a Token Smart Contract](#Write-a-Token-Smart-Contract)<br>
+[Compile the Smart Contract](#Compile-the-Smart-Contract)<br>
+<a id="Bottom-of-Page"></a>
