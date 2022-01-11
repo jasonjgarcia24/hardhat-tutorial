@@ -89,3 +89,6 @@ typings/
 
 # DynamoDB Local files
 .dynamodb/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
