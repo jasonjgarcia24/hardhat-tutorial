@@ -1,6 +1,8 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.7.0;
 
+import "hardhat/console.sol";
+
 // THis is the main building block for smart contracts.
 contract Token {
     // Some string type variables to identify the token.
@@ -36,6 +38,9 @@ contract Token {
      * the contract.
      */
     function transfer(address to, uint256 amount) external {
+        console.log("Sender balance is %s tokens", balances[msg.sender]);
+        console.log("Trying to send %s tokens to %s", amount, to);
+
         // Chenck if the transaction sender has enough tokens.
         // If `require`'s first argument evaluates to `false` then the
         // transaction will revert.
