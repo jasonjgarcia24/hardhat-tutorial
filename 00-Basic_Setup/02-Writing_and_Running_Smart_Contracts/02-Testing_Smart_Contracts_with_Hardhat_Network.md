@@ -38,7 +38,7 @@ This means the test passed.
 <b>Note</b>: If <code>console.log(owner[0])</code> was not commented out, the output would have included the [ethers.js Object](#ethers-js-Object):<br><br>
 Now, let's dissect each line:<br>
 ```js
-    const owner = await ethers.getSigners();</code>
+    const owner = await ethers.getSigners();
 ```
 A <code><a href="https://docs.ethers.io/v5/api/signer/" target="_blank">Signer</a></code> in ethers.js is an object that represents an Ethereum account. It's used to send transactions to contracts and other accounts. Here we're getting a list of the accounts in the node we're connected to, which in this case is the <strong>Hardhat Network</strong>. Altogether, we will get returned 20 signer account objects (<code>owner.length == 20</code>). An example of the ethers.js object can be seen [here](#ethers-js-Objec).<br><br>
 The <code>ethers</code> variable is available in the global scope.
