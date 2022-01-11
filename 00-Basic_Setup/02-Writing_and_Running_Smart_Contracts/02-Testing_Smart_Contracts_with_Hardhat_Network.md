@@ -1,4 +1,4 @@
-# Testing Smart Contracts with the Hardhat Network
+# Testing Smart Contracts with the Hardhat Network<a id="Top-of-Page">
 Using the <strong>Hardhat Network</strong>, a local Ethereum network designed for development that is built-in and the default network in Hardhat, we can run automated tests. In these tests, we're going to use <strong>ethers.js</strong> to interact with the Ethereum contract we built in <a href="./01-Writing_and_Running_Smart_Contracts.md" target="_blank">01-Writing_and_Running_Smart_Contracts.md</a>'s <code><a href="../../contracts/Token.sol" target="_blank">Token.sol</a></code>, and <a href="https://mochajs.org/" target="_blank">Mocha</a> as our Javascript test framework runner for Node.js.
 ***
 ## Cotents<a id="Contents">
