@@ -32,3 +32,9 @@ Add some <code>console.log</code> to the <code>transfer()</code> function as you
 The logging output will show when you run your tests:
 
 <center><img src="./img/01-console_logging.png" alt="solidity console.log() test output"></center>
+***
+
+[Top of Page](#Top-of-Page)<br>
+[Contents](#Contents)<br>
+[Solidity <code>console.log</code>](#Solidity-console-log)<br>
+<a id="Bottom-of-Page">
