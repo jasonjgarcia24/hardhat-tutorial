@@ -287,4 +287,5 @@ The output of <code>npx hardhat test</code> will look like the following:<br>
 [Write a Token Smart Contract](#Write-a-Token-Smart-Contract)<br>
 [Writing Basic Tests](#Writing-Basic-Tests)<br>
 [Writing a Full Test](#Writing-a-Full-Test)<br>
-[Appendix](#Appendix)    
+[Appendix](#Appendix)
+<a id="Bottom-of-Page">
