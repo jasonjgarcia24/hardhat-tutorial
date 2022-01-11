@@ -10,7 +10,6 @@ This mode will print a lot of output that can be super useful for debugging. An 
     $ npx hardhat test --verbose
       hardhat:core:config Loading Hardhat config from C:\Users\
       hardhat:core:global-dir Looking up Client Id at C:\Users\
-      hardhat:core:global-dir Client Id found: 6c37a6de-a097-48
       hardhat:core:analytics Sending hit for /task/builtin +0ms
       hardhat:core:analytics Hit payload: {"v":"1","t":"pagevieT 6.1; Win64; x64)","cs":"Developer","cm":"User Type","cd1"
       hardhat:core:hre Creating HardhatRuntimeEnvironment +0ms
