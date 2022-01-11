@@ -2,7 +2,6 @@
 Using the <strong>Hardhat Network</strong>, a local Ethereum network designed for development that is built-in and the default network in Hardhat, we can run automated tests. In these tests, we're going to use <strong>ethers.js</strong> to interact with the Ethereum contract we built in <a href="./01-Writing_and_Running_Smart_Contracts.md" target="_blank">01-Writing_and_Running_Smart_Contracts.md</a>'s <code><a href="../../contracts/Token.sol" target="_blank">Token.sol</a></code>, and <a href="https://mochajs.org/" target="_blank">Mocha</a> as our Javascript test framework runner for Node.js.
 ***
 ## Cotents<a id="Contents">
-[Write a Token Smart Contract](#Write-a-Token-Smart-Contract)<br>
 [Writing Basic Tests](#Writing-Basic-Tests)<br>
 [Writing a Full Test](#Writing-a-Full-Test)<br>
 [Appendix](#Appendix)<br>
@@ -284,7 +283,6 @@ The output of <code>npx hardhat test</code> will look like the following:<br>
 ***
 [Top of Page](#Top-of-Page)<br>
 [Contents](#Contents)<br>
-[Write a Token Smart Contract](#Write-a-Token-Smart-Contract)<br>
 [Writing Basic Tests](#Writing-Basic-Tests)<br>
 [Writing a Full Test](#Writing-a-Full-Test)<br>
 [Appendix](#Appendix)
